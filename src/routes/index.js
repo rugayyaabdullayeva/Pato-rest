@@ -17,7 +17,7 @@ export const ROUTES = [
         element: <Root />,
         children: [
             {
-                path: "",
+                path: "/home",
                 element: <Home />,
             },
             {
@@ -55,11 +55,11 @@ export const ROUTES = [
                 element: <Dashboard/>,
             },
             {
-                path:"admin/order",
+                path:"order",
                 element: <Order/>,
             },
             {
-                path:"admin/product",
+                path:"product",
                 element: <Product/>,
             },
         
